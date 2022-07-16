@@ -4,6 +4,7 @@ import AboutMe from '../AboutMe';
 import Projects from '../Projects';
 import Contact from '../Contact';
 import Resume from '../Resume';
+import Footer from '../Footer';
 
 export default function Portfolio() {
   const [currentPage, setCurrentPage] = useState('AboutMe');
@@ -33,6 +34,7 @@ export default function Portfolio() {
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* // TODO: Add a comment explaining what is happening on the following line */}
       {renderPage()}
+      <Footer></Footer>
     </div>
   );
 }
