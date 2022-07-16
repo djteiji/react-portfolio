@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Nav() {
+function Nav({ currentPage, handlePageChange }) {
 
   return (
     <header>
@@ -12,22 +12,36 @@ function Nav() {
     <nav>
         <ul>
         <li>
-            <a href="#about">
+            <a 
+            href="#about"
+            onClick={() => handlePageChange('AboutMe')}
+            >
             About me
             </a>
         </li>
         <li>
-            <a href="#portfolio">
-                Portfolio
+            <a 
+            href="#projects"
+            onClick={() => handlePageChange('Projects')}
+            >
+                Projects
             </a>
         </li>
         <li>
-        <a href="#resume">
+        <a 
+        href="#resume"
+        onClick={() => handlePageChange('Resume')}
+        >
                 Resume
             </a>
         </li>
         <li>
+        <a 
+        href="#contact"
+        onClick={() => handlePageChange('Contact')}
+        >
             Contact
+            </a>
         </li>
         </ul>
     </nav>

@@ -1,18 +1,38 @@
-import React from 'react';
-import photo from '../../assets/images/Budget-Tracker.jpg';
+import React, { useState } from 'react';
+import Nav from '../Nav';
+import AboutMe from '../AboutMe';
+import Projects from '../Projects';
+import Contact from '../Contact';
+import Resume from '../Resume';
 
-function Portfolio() {
+export default function Portfolio() {
+  const [currentPage, setCurrentPage] = useState('AboutMe');
+
+  // TODO: Add a comment describing the functionality of this method
+  // Depending which tab they click, the JSX from that page is rendered
+  const renderPage = () => {
+    if (currentPage === 'AboutMe') {
+      return <AboutMe />;
+    }
+    if (currentPage === 'Projects') {
+      return <Projects />;
+    }
+    if (currentPage === 'Resume') {
+      return <Resume />;
+    }
+    if (currentPage === 'Contact') {
+    return <Contact />;
+    }
+  };
+
+  const handlePageChange = (page) => setCurrentPage(page);
+
   return (
-    <section>
-      <h1>Coding Projects</h1>
-      <div>
-          <img
-            src={photo}
-            alt="Budget-Tracker-App Screenshot"
-          />
-      </div>
-
-    </section>
+    <div>
+      {/* // TODO: Add a comment describing what we are passing as props */}
+      <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+      {/* // TODO: Add a comment explaining what is happening on the following line */}
+      {renderPage()}
+    </div>
   );
 }
-export default Portfolio;
