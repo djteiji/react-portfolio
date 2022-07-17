@@ -1,32 +1,54 @@
 import React from 'react';
-import photo from '../../assets/images/Budget-Tracker.jpg';
+// import Photos from '../../assets/images/';
+import projects from '../../projects.json'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
-function Projects() {
+// console.log(Photos)
+
+function ProjectCard (props) {
+
   return (
     <section>
-      <h1>Coding Projects</h1>
       <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={photo} />
-      <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
-      </Card.Body>
-    </Card>
-
-      {/* <div>
-          <img
-            src={photo}
-            alt="Budget-Tracker-App Screenshot"
-          />
-      </div> */}
-
+        <Card.Img alt={props.name} src={props.image} />
+        <Card.Body>
+          <Card.Title>{props.name}</Card.Title>
+          <Card.Text>
+            {props.description}
+          </Card.Text>
+          <Button variant="primary">Go somewhere</Button>
+        </Card.Body>
+      </Card>
     </section>
+  );
+}
+
+function Wrapper(props) {
+  return <div className="wrapper">{props.children}</div>;
+}
+
+function Projects () {  
+  return (
+  <>
+  <div className="project">
+  </div>
+
+    <Wrapper>
+    <h1>Coding Projects</h1>
+      {projects.map((project) => (
+        <ProjectCard 
+        name={project.name}
+        key={project.id}
+        image={project.image}
+        github={project.github}
+        deployedapp={project.deployedapp}
+        description={project.description}
+        />
+      ))}
+    </Wrapper>
+  </>
+  
   );
 }
 export default Projects;

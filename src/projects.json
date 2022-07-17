@@ -1,0 +1,55 @@
+[
+    {
+        "id": 1,
+        "name": "Budget Tracker App",
+        "image": "/static/media/Budget-Tracker.ed2d8f968b7e99291f5b.jpg",
+        "github": "https://github.com/djteiji/budget-tracker",
+        "deployedapp": "https://immense-crag-24647.herokuapp.com/",
+        "description": "Manage debits and credits with or without online access."
+    },
+    {
+        "id": 2,
+        "name": "Food Festival App",
+        "image": "/static/media/Food-Festival.739e93b4755cf709f42e.jpg",
+        "github": "https://github.com/djteiji/food-festival",
+        "deployedapp": "https://djteiji.github.io/food-festival/",
+        "description": "Food Festival App that works without internet connection, updates when comes back online."
+    },
+
+    {
+        "id": 3,
+        "name": "The Tech Blog",
+        "image": "/static/media/The-Tech-Blog.8f1f2c778421571a477b.jpg",
+        "github": "https://github.com/djteiji/the-tech-blog",
+        "deployedapp": "https://gentle-earth-30088.herokuapp.com/",
+        "description": "App where developers can publish their posts as well as comment on other published posts."
+    },
+
+    {
+        "id": 4,
+        "name": "Photo Port",
+        "image": "/static/media/Photo-Port.4fb51ae4f542a9d09d5a.jpg",
+        "github": "https://djteiji.github.io/photo-port/",
+        "deployedapp": "https://gentle-earth-30088.herokuapp.com/",
+        "description": "Photography Website"
+    },
+
+    {
+        "id": 5,
+        "name": "Pizza Hunt",
+        "image": "/static/media/Pizza-Hunt.d20c46fb203c5fc42b11.jpg",
+        "github": "https://github.com/djteiji/pizza-hunt",
+        "deployedapp": "https://agile-shelf-57014.herokuapp.com/",
+        "description": "Pizza Maker App"
+    },
+
+    {
+        "id": 6,
+        "name": "Run Buddy",
+        "image": "/static/media/Run-buddy.55795b699891fc20aaba.jpg",
+        "github": "https://github.com/djteiji/run-buddy",
+        "deployedapp": "https://djteiji.github.io/run-buddy/",
+        "description": "Running Enthusiasts Website"
+    }
+
+]
