@@ -1,10 +1,10 @@
 import React from 'react';
-// import Photos from '../../assets/images/';
+import Photos from '../../assets/images/';
 import projects from '../../projects.json'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
-// console.log(Photos)
+
 
 function ProjectCard (props) {
 
