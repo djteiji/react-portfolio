@@ -1,5 +1,6 @@
 import React from 'react';
 import Portfolio from './components/Portfolio';
+import './index.css';
 // import './App.css';
 // import Nav from './components/Nav';
 // import AboutMe from './components/AboutMe';

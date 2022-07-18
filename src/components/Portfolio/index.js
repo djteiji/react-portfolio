@@ -31,7 +31,7 @@ export default function Portfolio() {
   return (
     <div>
       {/* // TODO: Add a comment describing what we are passing as props */}
-      <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+      <Nav className="App-header" currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* // TODO: Add a comment explaining what is happening on the following line */}
       {renderPage()}
       <Footer></Footer>

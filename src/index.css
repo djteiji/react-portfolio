@@ -1,13 +1,155 @@
 body {
+  background: #B5ABF4 !important;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Zen Maru Gothic', sans-serif !important;
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+  margin-bottom: 100px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  padding: 10px;
+}
+
+nav {
+  padding-left: 500px;
+}
+
+nav li {
+  list-style: none;
+  font-size: 27pt;
+}
+
+a {
+	border-radius: 5px;
+  color:aliceblue !important;
+	/* color: var(--primary); */
+	/* font-weight: 600; */
+	padding: 2px 4px;
+	margin-left: -2px;
+	margin-right: -2px;
+
+	
+}
+
+a:link {
+  text-decoration: none;
+}
+
+header {
+  font-family: 'Stick No Bills', sans-serif;
+  position: sticky; top: 0;
+}
+
+footer {
+  padding: 10px;
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+
+}
+
+
+.name {
+  font-size: 45pt;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 50px;
+}
+
+.active {
+  color:rgb(199, 6, 96) !important;
+}
+
+header {
+  background-color: black;
+}
+
+.wrapper {
+ /* padding-top: 100px; */
+ padding-bottom: 100px;
+}
+
+.resume-section {
+  padding-top: 50px;
+  padding-bottom: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.contact-section {
+  padding-top: 50px;
+  padding-bottom: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.mypic {
+  width: 400px;
+  clip-path: circle(45% at 50% 50%);
+  margin-top: 40px;
+  margin-bottom: 40px;
+  
+}
+
+#about {
+  padding-left: 100px;
+  font-weight: bold;
+  
+  /* border-bottom: 1px double gray; */
+  border-bottom-style: double;
+  padding-bottom: 30px;
+  ;
+}
+
+.about-me-section {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 100px;
+  margin-bottom: 300px;
+}
+
+.bio {
+  font-size: 20pt;
+}
+
+.icon {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.skills {
+  font-size: 20pt;
+}
+
+.backend {
+  padding-top: 30px;
+}
+
+.download-resume {
+  font-weight: bold;
+  font-size: 25pt;
+}
+
+input {
+  font-size: 1rem;
+  padding: 0.25rem;
+  border: 1px solid var(--dark);
+  outline: none;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
+}
+
+label {
+  display: flex !important;
 }

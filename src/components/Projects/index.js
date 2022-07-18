@@ -1,23 +1,23 @@
 import React from 'react';
 import Photos from '../../assets/images/';
 import projects from '../../projects.json'
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
 
 
-function ProjectCard (props) {
+function ProjectCard(props) {
 
   return (
-    <section>
+    <section className='col-4 d-flex align-items-stretch'>
       <Card style={{ width: '18rem' }}>
-        <Card.Img alt={props.name} src={props.image} />
+        <Card.Img className='' alt={props.name} src={props.image} />
         <Card.Body>
           <Card.Title>{props.name}</Card.Title>
           <Card.Text>
             {props.description}
           </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
+          <a href={props.deployedapp}><img src="https://img.icons8.com/ios/50/000000/internet--v1.png" alt="web-icon" id="port-icon" /></a>
+          <a href={props.github}><img src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="github-icon" id="port-icon" /></a>
         </Card.Body>
       </Card>
     </section>
@@ -25,7 +25,7 @@ function ProjectCard (props) {
 }
 
 function Wrapper(props) {
-  return <div className="wrapper">{props.children}</div>;
+  return <div className="wrapper row">{props.children}</div>;
 }
 
 function Projects () {  
@@ -33,9 +33,10 @@ function Projects () {
   <>
   <div className="project">
   </div>
+  <h1>Coding Projects</h1>
 
     <Wrapper>
-    <h1>Coding Projects</h1>
+
       {projects.map((project) => (
         <ProjectCard 
         name={project.name}

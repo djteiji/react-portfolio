@@ -3,10 +3,10 @@ import SampleResume from './SampleResume.pdf';
 
 function Resume() {
     return (
-      <section>
-        <h1>Front End</h1>
+      <section className='resume-section'>
+        <h1 id='about'>Front End</h1>
         <div>
-            <ul>
+            <ul className='skills'>
                 <li>
                     <p>React</p>
                 </li>
@@ -30,9 +30,9 @@ function Resume() {
                 </li>
             </ul>
         </div>
-        <h1>Back End</h1>
+        <h1 id='about' className='backend'>Back End</h1>
         <div>
-            <ul>
+            <ul className='skills'>
                 <li>
                     <p>APIs</p>
                 </li>
@@ -57,7 +57,7 @@ function Resume() {
             </ul>
         </div>
 
-        <a href={SampleResume} download>Download Resume</a>
+        <a className='skills download-resume' href={SampleResume} download>Download Resume</a>
   
       </section>
     );

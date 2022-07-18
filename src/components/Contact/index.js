@@ -36,10 +36,10 @@ function ContactForm() {
       }
 
     return (
-        <section>
-          <h1 data-testid="h1tag">Contact me</h1>
-          <h2 data-testid="h2tag">M: (845) 594-4136</h2>
-          <h2 data-testid="h2tag">E: djteiji@gmail.com</h2>
+        <section className='contact-section'>
+          <h1 id='about'>Contact Me</h1>
+          <h2 >M: (845) 594-4136</h2>
+          <h2 >E: djteiji@gmail.com</h2>
           <form id="contact-form" onSubmit={handleSubmit}>
             <div>
               <label htmlFor="name">Name:</label>
