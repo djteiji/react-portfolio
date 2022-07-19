@@ -115,7 +115,7 @@ header {
 .about-me-section {
   margin-left: 200px;
   margin-right: 200px;
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 300px;
 }
 
@@ -152,4 +152,28 @@ input {
 
 label {
   display: flex !important;
+}
+
+textarea {
+  font-size: 1rem;
+  padding: 0.25rem;
+  border: 1px solid var(--dark);
+  outline: none;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
+  height: 120px;
+  width: 600px;
+}
+
+#contact-form {
+  font-size: 22px;
+}
+
+button {
+  padding: 0.25rem 1rem;
+  border-radius: 0.5rem !important;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 10px !important;
 }
