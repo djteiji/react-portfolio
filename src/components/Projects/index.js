@@ -8,7 +8,7 @@ import Card from 'react-bootstrap/Card';
 function ProjectCard(props) {
 
   return (
-    <section className='col-4 d-flex align-items-stretch'>
+    <section className='col-12 col-md-6 col-lg-4 d-flex align-items-stretch cards'>
       <Card style={{ width: '18rem' }}>
         <Card.Img className='' alt={props.name} src={props.image} />
         <Card.Body>
@@ -33,7 +33,7 @@ function Projects () {
   <>
   <div className="project">
   </div>
-  <h1>Coding Projects</h1>
+  <h1 id='about' className='coding-projects' >Coding Projects</h1>
 
     <Wrapper>
 
