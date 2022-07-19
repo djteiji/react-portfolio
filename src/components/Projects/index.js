@@ -1,5 +1,5 @@
 import React from 'react';
-import Photos from '../../assets/images/';
+import '../../assets/images/';
 import projects from '../../projects.json'
 import Card from 'react-bootstrap/Card';
 
@@ -8,7 +8,7 @@ import Card from 'react-bootstrap/Card';
 function ProjectCard(props) {
 
   return (
-    <section className='col-12 col-md-6 col-lg-4 d-flex align-items-stretch cards'>
+
       <Card style={{ width: '18rem' }}>
         <Card.Img className='' alt={props.name} src={props.image} />
         <Card.Body>
@@ -16,16 +16,15 @@ function ProjectCard(props) {
           <Card.Text>
             {props.description}
           </Card.Text>
-          <a href={props.deployedapp}><img src="https://img.icons8.com/ios/50/000000/internet--v1.png" alt="web-icon" id="port-icon" /></a>
-          <a href={props.github}><img src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="github-icon" id="port-icon" /></a>
+          <a href={props.deployedapp} rel="noreferrer" target="_blank"><img src="https://img.icons8.com/ios/50/000000/internet--v1.png" alt="web-icon" className="card-icon" /></a>
+          <a href={props.github} rel="noreferrer" target="_blank"><img src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="github-icon" className="card-icon" /></a>
         </Card.Body>
       </Card>
-    </section>
   );
 }
 
 function Wrapper(props) {
-  return <div className="wrapper row">{props.children}</div>;
+  return <div className="wrapper">{props.children}</div>;
 }
 
 function Projects () {  
@@ -33,7 +32,7 @@ function Projects () {
   <>
   <div className="project">
   </div>
-  <h1 id='about' className='coding-projects' >Coding Projects</h1>
+  <h1 id='about' className='coding-projects' >Portfolio</h1>
 
     <Wrapper>
 
