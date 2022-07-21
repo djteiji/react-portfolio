@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Budget Tracker App",
-        "image": "/static/media/Budget-Tracker.ed2d8f968b7e99291f5b.jpg",
+        "image": "/images/Budget-Tracker.jpg",
         "github": "https://github.com/djteiji/budget-tracker",
         "deployedapp": "https://immense-crag-24647.herokuapp.com/",
         "description": "Manage debits and credits with or without online access."
