@@ -1,9 +1,16 @@
 import React from 'react';
-import '../../assets/images/';
+import imageObj from '../../assets/images';
 import projects from '../../projects.json'
 import Card from 'react-bootstrap/Card';
 
-
+const imageArr = [
+  imageObj.BudgetTracker,
+  imageObj.FoodFestival,
+  imageObj.TheTechBlog,
+  imageObj.PhotoPort,
+  imageObj.PizzaHunt,
+  imageObj.RunBuddy
+]
 
 function ProjectCard(props) {
 
@@ -36,11 +43,11 @@ function Projects () {
 
     <Wrapper>
 
-      {projects.map((project) => (
+      {projects.map((project, index) => (
         <ProjectCard 
         name={project.name}
         key={project.id}
-        image={project.image}
+        image={imageArr[index]}
         github={project.github}
         deployedapp={project.deployedapp}
         description={project.description}
