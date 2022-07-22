@@ -5,7 +5,7 @@ function Nav({ currentPage, handlePageChange }) {
   return (
     <header className='flex-row'>
     <h1 className='name'>
-        <a href="/">
+        <a href="/react-portfolio">
             Teiji Malkine
         </a>
     </h1>
