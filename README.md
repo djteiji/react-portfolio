@@ -31,6 +31,8 @@ Build a professional portfolio to showcase projects to potential employers and/o
 - HTML
 - CSS
 
+Link to application deployed to GitHub Pages: https://djteiji.github.io/react-portfolio/
+
 ## Contribution
 Made with ❤️ by Teiji Malkine
 
