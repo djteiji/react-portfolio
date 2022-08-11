@@ -9,7 +9,8 @@ const imageArr = [
   imageObj.TheTechBlog,
   imageObj.PhotoPort,
   imageObj.PizzaHunt,
-  imageObj.RunBuddy
+  imageObj.RunBuddy,
+  imageObj.Zankooo
 ]
 
 function ProjectCard(props) {

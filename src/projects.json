@@ -44,6 +44,14 @@
         "github": "https://github.com/djteiji/run-buddy",
         "deployedapp": "https://djteiji.github.io/run-buddy/",
         "description": "Running Enthusiasts Website"
+    },
+
+    {
+        "id": 7,
+        "name": "The House Of Zankooo",
+        "github": "https://github.com/Rober2092/zankooo",
+        "deployedapp": "https://salty-stream-82328.herokuapp.com/",
+        "description": "Fashion Retailer"
     }
 
 ]

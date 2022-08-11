@@ -4,8 +4,8 @@ const Photos = {
     TheTechBlog: require('./The-Tech-Blog.jpg'),
     PhotoPort: require('./Photo-Port.jpg'),
     PizzaHunt: require('./Pizza-Hunt.jpg'),
-    RunBuddy: require('./Run-buddy.jpg')
-
+    RunBuddy: require('./Run-buddy.jpg'),
+    Zankooo: require('./Zankooo.png')
 }
 
 
