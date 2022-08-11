@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.aea64fe4.css",
-    "main.js": "/react-portfolio/static/js/main.1ea31228.js",
+    "main.js": "/react-portfolio/static/js/main.faa3a560.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/React-Profile-Pic.jpg": "/react-portfolio/static/media/React-Profile-Pic.1556b8912baa63a7f9d5.jpg",
+    "static/media/Zankooo.png": "/react-portfolio/static/media/Zankooo.6b2eaf4f58275653ef49.png",
     "static/media/The-Tech-Blog.jpg": "/react-portfolio/static/media/The-Tech-Blog.8f1f2c778421571a477b.jpg",
     "static/media/Run-buddy.jpg": "/react-portfolio/static/media/Run-buddy.55795b699891fc20aaba.jpg",
     "static/media/Photo-Port.jpg": "/react-portfolio/static/media/Photo-Port.4fb51ae4f542a9d09d5a.jpg",
@@ -13,11 +14,11 @@
     "static/media/Budget-Tracker.jpg": "/react-portfolio/static/media/Budget-Tracker.ed2d8f968b7e99291f5b.jpg",
     "index.html": "/react-portfolio/index.html",
     "main.aea64fe4.css.map": "/react-portfolio/static/css/main.aea64fe4.css.map",
-    "main.1ea31228.js.map": "/react-portfolio/static/js/main.1ea31228.js.map",
+    "main.faa3a560.js.map": "/react-portfolio/static/js/main.faa3a560.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aea64fe4.css",
-    "static/js/main.1ea31228.js"
+    "static/js/main.faa3a560.js"
   ]
 }
